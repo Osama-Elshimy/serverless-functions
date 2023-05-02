@@ -9,7 +9,7 @@ const items = [
 	},
 	{
 		id: 'recvKMNR3YFw0bEt3',
-		name: 'entertainment center',
+		name: 'leather sofa',
 		image: {
 			url: 'https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c29mYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60',
 		},
@@ -25,7 +25,7 @@ const items = [
 	},
 	{
 		id: 'recyqtRglGNGtO4Q5',
-		name: 'leather sofa',
+		name: 'entertainment center',
 		image: {
 			url: 'https://images.unsplash.com/photo-1484101403633-562f891dc89a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c29mYXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60',
 		},
