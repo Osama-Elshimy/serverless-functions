@@ -29,6 +29,9 @@ exports.handler = async (event, context, cb) => {
     )
     console.log(data)
     return {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
       statusCode: 201,
       body: 'Success',
     }

@@ -18,6 +18,9 @@ exports.handler = async (event, context, cb) => {
 	try {
 		const resp = await axios.get(url);
 		return {
+			headers: {
+				'Access-Control-Allow-Origin': '*',
+			},
 			statusCode: 200,
 			body: JSON.stringify(resp.data),
 		};
